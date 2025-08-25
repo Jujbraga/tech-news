@@ -1,8 +1,5 @@
 #primary {
-  display: grid;
-  grid-auto-flow: column;
   justify-content: space-between;
-
   padding-block: 20px;
 
   & div {
@@ -18,4 +15,14 @@
       display: inline;
     }
   }
+}
+
+#secondary {
+  padding-block: 14px;
+  border-block: solid 1px var(--stroke-color);
+  justify-content: space-between;
+
+  overflow: auto;
+  gap: 1rem;
+  white-space: nowrap;
 }
